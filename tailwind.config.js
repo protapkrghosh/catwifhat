@@ -18,7 +18,7 @@ module.exports = {
       },
       extend: {
          fontFamily: {
-            gagalin: 'Gagalin'
+            gagalin: "Gagalin",
          },
          colors: {
             border: "hsl(var(--border))",
