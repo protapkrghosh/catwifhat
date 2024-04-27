@@ -8,6 +8,19 @@ body {
   font-family: 'gagalin';
 }
 
+/* NavBar */
+.textStroke {
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #e63434;
+}
+
+.navButton {
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  background: #DF355F;
+  box-shadow: 4px 4px 0px 0px #FFF;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
