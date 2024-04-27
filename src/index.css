@@ -8,6 +8,12 @@ body {
   font-family: 'gagalin';
 }
 
+/* NavBar */
+.textStroke {
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #e63434;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
