@@ -1,8 +1,6 @@
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState, useEffect } from "react";
 import logo from "@/assets/catwif_logo.png";
-import bannerBg from "@/assets/Banner/Group8.png";
-import welcomeText from "@/assets/Banner/image419.png";
 import { Link } from "react-scroll";
 import { Button } from "@/components/ui/button";
 
@@ -80,8 +78,8 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className={color ? 'sticky top-0 z-50 duration-300 py-1 bg-[#E1B9B4] shadow-md' : 'pt-0 duration-300'}>
-      <div className="max-w-[1620px] mx-auto xl:px-24 lg:px-16 md:px-10 sm:px-2 px-4">
+    <div className={color ? 'sticky top-0 z-50 duration-300 py-1 bg-[#E1B9B4] shadow-md' : 'pt-0 duration-300 absolute top-0 w-full'}>
+      <div className="max-w-[1500px] mx-auto xl:px-24 lg:px-16 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-5'}`}>
 
@@ -120,14 +118,14 @@ const NavBar = () => {
 
               <div className="block md:hidden">
                 <Link to="home" smooth={true} offset={-30} duration={600}>
-                  <Button className="bg-[#DF355F] uppercase text-[16px] font-inter font-normal">Join catwifhat</Button>
+                  <Button className="bg-[#DF355F] uppercase text-[18px] font-inter font-normal">Join catwifhat</Button>
                 </Link>
               </div>
             </ul>
 
             <div className="md:block hidden">
               <Link to="home" smooth={true} offset={-30} duration={600}>
-                <Button className="bg-[#DF355F] uppercase text-[16px] font-inter font-normal navButton">Join catwifhat</Button>
+                <Button className="bg-[#DF355F] uppercase text-[18px] font-inter font-normal navButton">Join catwifhat</Button>
               </Link>
             </div>
           </div>
