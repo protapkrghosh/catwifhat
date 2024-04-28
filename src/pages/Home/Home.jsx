@@ -1,9 +1,10 @@
+import BannerText from '@/components/sections/BannerText/BannerText';
 import React from 'react';
 
 const Home = () => {
   return (
     <div>
-      <h2>This is home contents</h2>
+      <BannerText />
     </div>
   );
 };
