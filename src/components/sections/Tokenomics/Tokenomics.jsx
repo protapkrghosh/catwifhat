@@ -24,11 +24,11 @@ const Tokenomics = () => {
 
   return (
     <div className='lg:mt-[150px]'>
-      <Container>
+      {/* <Container> */}
         <div>
           <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px] mb-14'>Tokenomics</p>
 
-          <div className='text-[#DF355F]'>
+          <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-16 pb-20'>
             <p className='text-[28px] text-center'>Total Supply: 1.000.000.000</p>
 
             {/* Progress bar */}
@@ -64,7 +64,7 @@ const Tokenomics = () => {
             </div>
           </div>
         </div>
-      </Container>
+      {/* </Container> */}
     </div>
   );
 };
