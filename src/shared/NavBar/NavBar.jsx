@@ -124,9 +124,7 @@ const NavBar = () => {
             </ul>
 
             <div className="md:block hidden">
-              <Link to="home" smooth={true} offset={-30} duration={600}>
-                <Button className="bg-[#DF355F] uppercase text-[18px] font-inter font-normal navButton">Join catwifhat</Button>
-              </Link>
+              <Button className="bg-[#DF355F] hover:bg-[#DF355F] uppercase text-[18px] font-inter font-normal navButton">Join catwifhat</Button>
             </div>
           </div>
         </div>

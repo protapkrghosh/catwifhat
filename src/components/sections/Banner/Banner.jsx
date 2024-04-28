@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 const Banner = () => {
   return (
     <div className="mb-[116px]">
-      <img src={bannerBg} alt="Image" className=""/>
+      <img src={bannerBg} alt="Image" className="h-[930px] w-full" />
+      
       <div className="-mt-[600px] 2xl:-mt-[810px]">
         <Container>
           <img src={catwifhatText} alt="Image" className="mx-auto"/>
@@ -18,7 +19,7 @@ const Banner = () => {
             <div className="xl:w-[33%] 2xl:w-[29%]">
               <p className="text-[#272727] text-[18px]">CatwifHat is simply a cat wif a hat, Let's add hats to the cat. CatwifHat Is DogwifHat's Biggest Competitor! !</p>
 
-              <Button className="bg-[#DF355F] text-[18px] navButton px-10 mt-12">Join Now</Button>
+              <Button className="bg-[#DF355F] hover:bg-[#DF355F] text-[18px] navButton px-10 mt-12">Join Now</Button>
             </div>
           </div>
         </Container>
