@@ -67,7 +67,7 @@ const Footer = () => {
 
   return (
     <div className='relative lg:mt-[100px] bg-[#FA7C88]'>
-      <div className='md:-mb-[300px]'>
+      <div className='md:-mb-[305px] lg:-mb-[285px] xl:-mb-[400px]'>
         <Container>
           <div className='pt-[70px] lg:pt-[100px] flex justify-center items-center lg:gap-[19px]'>
             <img className='w-auto' src={footerLogo} alt="image" />
