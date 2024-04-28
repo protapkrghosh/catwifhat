@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const Banner = () => {
   return (
     <div className="mb-[116px]">
-      <img src={bannerBg} alt="Image" className="h-[930px] w-full" />
+      <img src={bannerBg} alt="Image" className="h-auto 2xl:h-screen w-full" />
       
       <div className="-mt-[600px] 2xl:-mt-[810px]">
         <Container>
