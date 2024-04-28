@@ -1,3 +1,4 @@
+import Banner from '@/components/sections/Banner/Banner';
 import BannerText from '@/components/sections/BannerText/BannerText';
 import OurPartner from '@/components/sections/OurPartner/OurPartner';
 import TryAnotherCat from '@/components/sections/TryAnotherCat/TryAnotherCat';
@@ -7,6 +8,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
+      <Banner />
       <BannerText />
       <WhyChooseCatwifhat />
       <OurPartner />

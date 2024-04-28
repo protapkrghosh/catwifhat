@@ -1,6 +1,8 @@
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState, useEffect } from "react";
 import logo from "@/assets/catwif_logo.png";
+import bannerBg from "@/assets/Banner/Group8.png";
+import welcomeText from "@/assets/Banner/image419.png";
 import { Link } from "react-scroll";
 import { Button } from "@/components/ui/button";
 
