@@ -11,7 +11,7 @@ const Banner = () => {
       
       <div className="-mt-[600px] 2xl:-mt-[810px]">
         <Container>
-          <img src={catwifhatText} alt="Image" className="mx-auto"/>
+          <img src={catwifhatText} alt="Image" className="mx-auto w-[760px] 2xl:w-auto"/>
 
           <img src={welcomeIcon} alt="Image" className="w-[250px] mt-20" />
           
