@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { IoCopy } from "react-icons/io5";
-import Container from '../Container/Container';
 import { MdLibraryAddCheck } from "react-icons/md";
 import { Progress } from "@/components/ui/progress"
 import catLeft from "@/assets/tokenomics/image1.png"
@@ -25,16 +24,15 @@ const Tokenomics = () => {
   };
 
   return (
-    <div className='lg:mt-[150px] overflow-hidden'>
-      {/* <Container> */}
-      <div className='-mb-[610px] 2xl:-mb-[610px]'>
-        <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px] mb-14'>Tokenomics</p>
+    <div className='lg:mt-[150px]'>
+      <div className='md:-mb-[225px] lg:-mb-[350px] xl:-mb-[470px] 2xl:-mb-[610px]'>
+        <p className='text-[#DF355F] text-center text-[42px] md:text-[90px] leading-[108px] tracking-[2.7px] mb-14'>Tokenomics</p>
 
-        <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-16 pb-20'>
+        <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-8 md:pt-16 pb-12 md:pb-20'>
           <p className='text-[28px] text-center'>Total Supply: 1.000.000.000</p>
 
           {/* Progress bar */}
-          <div className="max-w-[550px] mx-auto mt-8">
+          <div className="max-w-[450px] xl:max-w-[550px] mx-auto mt-8 px-5">
             <p className='text-[18px] mb-2'>burn 8%</p>
             <Progress value={12} />
 
@@ -68,11 +66,12 @@ const Tokenomics = () => {
       </div>
 
       {/* Image */}
-      <div className='flex justify-between'>
-        <img src={catLeft} alt="Image" className=''/>
-        <img src={catRight} alt="Image" className=''/>
+      <div className='hidden md:block'>
+        <div className='flex justify-between'>
+          <img src={catLeft} alt="Image" className='w-[130px] lg:w-[180px] xl:w-[270px] 2xl:w-auto' />
+          <img src={catRight} alt="Image" className='w-[180px] lg:w-[280px] xl:w-[370px] 2xl:w-auto' />
+        </div>
       </div>
-      {/* </Container> */}
     </div>
   );
 };
