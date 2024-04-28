@@ -9,6 +9,7 @@ const TryAnotherCat = () => {
   return (
     <div className='lg:mt-[150px]'>
       <Container>
+        
         <p className='text-[#DF355F] text-center lg:text-[70px] leading-[96px] tracking-[2.4px] lg:mb-[60px]'>TRY ANOTHER CAT WITH ANOTHER HAT</p>
 
         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[30px]'>
