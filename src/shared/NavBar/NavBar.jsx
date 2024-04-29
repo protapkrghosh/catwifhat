@@ -121,13 +121,13 @@ const NavBar = () => {
 
               <div className="block md:hidden">
                 <Link to="home" smooth={true} offset={-30} duration={600}>
-                  <Button className="bg-[#DF355F] uppercase text-[18px] font-inter font-normal">Join catwifhat</Button>
+                  <Button className="bg-[#DF355F] uppercase text-[18px] font-inter font-normal leading-[27px] tracking-[0.72px]">Join catwifhat</Button>
                 </Link>
               </div>
             </ul>
 
             <div className="md:block hidden">
-              <Button className="bg-[#DF355F] hover:bg-[#DF355F] uppercase text-[18px] font-inter font-normal navButton">Join catwifhat</Button>
+              <Button className="bg-[#DF355F] hover:bg-[#DF355F] uppercase text-[18px] font-inter font-normal navButton leading-[27px] tracking-[0.72px]">Join catwifhat</Button>
             </div>
           </div>
         </div>
