@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../Container/Container';
 import img1 from '@/assets/ourPartner/Group 8776.png';
 import img2 from '@/assets/ourPartner/Group 1171275206.png';
