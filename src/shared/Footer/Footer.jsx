@@ -71,7 +71,10 @@ const Footer = () => {
         <Container>
           <div className='pt-[70px] lg:pt-[100px] flex justify-center items-center lg:gap-[19px]'>
             <img className='w-auto' src={footerLogo} alt="image" />
-            <p className='text-[#161307] text-[45.654px] leading-[68.48px]'>cat</p>
+            <div>
+              <p className='text-[#161307] text-[45.654px] leading-[68.48px] textStrokeNav -mb-[68px]'>cat</p>
+              <p className='text-[#161307] text-[45.654px] leading-[68.48px]'>cat</p>
+            </div>
           </div>
 
           <p className='text-[#000] text-center text-[18px] leading-[27px] tracking-[0.72px] py-[20px]'>contact@catwiftoken.org</p>
