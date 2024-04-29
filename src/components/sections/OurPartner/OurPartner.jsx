@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../Container/Container';
 import img1 from '@/assets/ourPartner/Group 8776.png';
 import img2 from '@/assets/ourPartner/Group 1171275206.png';
@@ -9,7 +8,7 @@ import img6 from '@/assets/ourPartner/Group 1171275209.png';
 
 const OurPartner = () => {
   return (
-    <div className='lg:mt-[150px]'>
+    <div className='lg:mt-[230px]'>
       <Container>
         <div>
           <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStroke -mb-[108px]'>our partner</p>
