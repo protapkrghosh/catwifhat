@@ -17,9 +17,9 @@ const OurPartner = () => {
 
       <Container>
         <div>
-          <p className='text-[#DF355F] text-center text-[45px] md:text-[60px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStrokeSm md:textStroke -mb-[67px] md:-mb-[90px] lg:-mb-[108px]'>our partner</p>
+          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStrokeSm md:textStroke -mb-[67px] md:-mb-[97px] lg:-mb-[108px]'>our partner</p>
           
-          <p className='text-[#DF355F] text-center text-[45px] md:text-[60px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] mb-[30px] lx:mb-[60px]'>our partner</p>
+          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] mb-[30px] lx:mb-[60px]'>our partner</p>
         </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[60px] lg:gap-[50px] gap-[40px]'>
