@@ -9,7 +9,7 @@ import img6 from '@/assets/ourPartner/Group 1171275209.png';
 
 const OurPartner = () => {
   return (
-    <div className='lg:mt-[150px]'>
+    <div className='lg:mt-[230px]'>
       <Container>
         <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] lg:mb-[60px]'>our partner</p>
 
