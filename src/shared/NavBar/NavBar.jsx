@@ -85,7 +85,10 @@ const NavBar = () => {
 
             <Link to="home" smooth={true} offset={-30} duration={600} className="cursor-pointer flex items-center">
               <img src={logo} alt="Logo" className="w-[50px] mr-3 ml-5 md:ml-0" />
-              <p className="text-[24px] textStroke">Cat</p>
+              <div>
+                <p className="text-[24px] textStrokeNav -mb-9">Cat</p>
+                <p className="text-[24px]">Cat</p>
+              </div>
             </Link>
 
             <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">

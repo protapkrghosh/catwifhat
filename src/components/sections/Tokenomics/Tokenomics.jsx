@@ -26,10 +26,17 @@ const Tokenomics = () => {
   return (
     <div className='lg:mt-[150px]'>
       <div className='md:-mb-[225px] lg:-mb-[350px] xl:-mb-[470px] 2xl:-mb-[610px]'>
-        <p className='text-[#DF355F] text-center text-[42px] md:text-[90px] leading-[108px] tracking-[2.7px] mb-14'>Tokenomics</p>
+        <div className='relative'>
+          <p className='text-[#DF355F] text-center text-[42px] md:text-[90px] leading-[108px] tracking-[2.7px] -mb-[108px] textStroke'>Tokenomics</p>
+
+          <p className='text-[#DF355F] text-center text-[42px] md:text-[90px] leading-[108px] tracking-[2.7px] mb-14 '>Tokenomics</p>
+        </div>
 
         <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-8 md:pt-16 pb-12 md:pb-20'>
-          <p className='text-[28px] text-center'>Total Supply: 1.000.000.000</p>
+          <div>
+            <p className='text-[28px] text-center textStroke -mb-[42px]'>Total Supply: 1.000.000.000</p>
+            <p className='text-[28px] text-center'>Total Supply: 1.000.000.000</p>
+          </div>
 
           {/* Progress bar */}
           <div className="max-w-[450px] xl:max-w-[550px] mx-auto mt-8 px-5">
