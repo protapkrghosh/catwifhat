@@ -9,7 +9,7 @@ import img7 from '@/assets/ourPartner/image21.png';
 
 const OurPartner = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[230px]'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[170px]'>
 
       <div className='flex justify-end lg:-mb-[260px] xl:-mb-[300px] 2xl:-mb-[355px] 2xl:mr-24'>
         <img src={img7} alt="Image" className='w-[280px] xl:w-[350px] 2xl:w-[450px] hidden lg:block'/>
@@ -19,7 +19,7 @@ const OurPartner = () => {
         <div>
           <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStrokeSm md:textStroke -mb-[67px] md:-mb-[97px] lg:-mb-[108px]'>our partner</p>
           
-          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] mb-[30px] lx:mb-[60px]'>our partner</p>
+          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] mb-[30px] xl:mb-[60px]'>our partner</p>
         </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[60px] lg:gap-[50px] gap-[40px]'>
