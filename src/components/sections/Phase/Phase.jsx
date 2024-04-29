@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from '../Container/Container';
 import phaseImage from '@/assets/phase/Group 1171275202.png';
 import imageCard1 from '@/assets/phase/Group 1171275199.png';
