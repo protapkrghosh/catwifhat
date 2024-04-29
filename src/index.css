@@ -21,6 +21,11 @@ body {
   -webkit-text-stroke-color: #fff;
 }
 
+.textStrokeSm {
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #fff;
+}
+
 .navButton {
   border-radius: 5px;
   border: 2px solid #FFF;
