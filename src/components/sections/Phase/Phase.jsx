@@ -9,8 +9,8 @@ const Phase = () => {
     <div className='lg:mt-[150px] md:mt-[100px]'>
       <Container>
         <div>
-          <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px] textStroke -mb-[108px]'>phase</p>
-          <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px]'>phase</p>
+          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] leading-[108px] tracking-[2.7px] textStrokeSm md:textStroke -mb-[108px]'>phase</p>
+          <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] leading-[108px] tracking-[2.7px]'>phase</p>
         </div>
 
         <div className='lg:mt-[290px] md:mt-[60px]'>
