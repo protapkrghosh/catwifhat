@@ -67,7 +67,7 @@ const Phase = () => {
           </div>
 
           {/* ------------------------third cart---------------------- */}
-          <div className='lg:mt-0 md:mt-[90px]'>
+          <div className='lg:mt-0 md:mt-[110px]'>
             <img className='lg:mx-0 mx-auto lg:w-auto md:w-[65%] 2xl:mt-[-45px] xl:mt-[-45px] lg:mt-[-45px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard3} alt="image" />
 
             {/* title section  */}
