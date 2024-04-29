@@ -69,7 +69,7 @@ const Phase = () => {
 
             {/* title section  */}
             <div className='xl:mt-[-172px] xl:ml-[774px]'>
-              <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage2</p>
+              <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage3</p>
               <div className='flex items-center gap-[10px] lg:mb-[15px]'>
                 <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
                 <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
