@@ -8,7 +8,10 @@ const Phase = () => {
   return (
     <div className='lg:mt-[150px]'>
       <Container>
-        <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px]'>phase</p>
+        <div>
+          <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px] textStroke -mb-[108px]'>phase</p>
+          <p className='text-[#DF355F] text-center text-[90px] leading-[108px] tracking-[2.7px]'>phase</p>
+        </div>
 
         <div className='lg:mt-[290px]'>
           <img className='lg:w-auto mx-auto' src={phaseImage} alt="image" />
