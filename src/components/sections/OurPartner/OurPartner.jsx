@@ -5,10 +5,16 @@ import img3 from '@/assets/ourPartner/Group 8776 (1).png';
 import img4 from '@/assets/ourPartner/Group 1171275207.png';
 import img5 from '@/assets/ourPartner/Group 1171275208.png';
 import img6 from '@/assets/ourPartner/Group 1171275209.png';
+import img7 from '@/assets/ourPartner/image21.png';
 
 const OurPartner = () => {
   return (
     <div className='lg:mt-[230px]'>
+
+      <div className='flex justify-end xl:-mb-[300px] 2xl:-mb-[360px] 2xl:mr-24'>
+        <img src={img7} alt="Image" className='w-[350px] 2xl:w-[450px]'/>
+      </div>
+
       <Container>
         <div>
           <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStroke -mb-[108px]'>our partner</p>
