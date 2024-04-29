@@ -11,15 +11,15 @@ const TryAnotherCat = () => {
       <Container>
         
         <div>
-          <p className='text-[#DF355F] text-center lg:text-[75px] lg:leading-[96px] tracking-[2.4px] textStroke -mb-[192px]'>TRY ANOTHER CAT WITH ANOTHER HAT</p>
+          <p className='text-[#DF355F] text-center lg:text-[75px] lg:leading-[96px] tracking-[2.4px] textStroke -mb-[192px] 2xl:-mb-[96px]'>TRY ANOTHER CAT WITH ANOTHER HAT</p>
           <p className='text-[#DF355F] text-center lg:text-[75px] lg:leading-[96px] tracking-[2.4px] lg:mb-[60px]'>TRY ANOTHER CAT WITH ANOTHER HAT</p>
         </div>
 
         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[30px]'>
-          <img className='w-auto' src={img1} alt="" />
-          <img className='w-auto' src={img2} alt="" />
-          <img className='w-auto' src={img3} alt="" />
-          <img className='w-auto' src={img4} alt="" />
+          <img className='w-auto' src={img1} alt="Image" />
+          <img className='w-auto' src={img2} alt="Image" />
+          <img className='w-auto' src={img3} alt="Image" />
+          <img className='w-auto' src={img4} alt="Image" />
         </div>
 
       </Container>
