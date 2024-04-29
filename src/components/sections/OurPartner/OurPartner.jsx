@@ -10,15 +10,18 @@ const OurPartner = () => {
   return (
     <div className='lg:mt-[230px]'>
       <Container>
-        <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] lg:mb-[60px]'>our partner</p>
+        <div>
+          <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStroke -mb-[108px]'>our partner</p>
+          <p className='text-[#DF355F] text-center lg:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] lg:mb-[60px]'>our partner</p>
+        </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[60px] lg:gap-[50px] gap-[40px]'>
-          <img className='w-auto' src={img1} alt="" />
-          <img className='w-auto' src={img2} alt="" />
-          <img className='w-auto' src={img3} alt="" />
-          <img className='w-auto' src={img4} alt="" />
-          <img className='w-auto' src={img5} alt="" />
-          <img className='w-auto' src={img6} alt="" />
+          <img className='w-auto' src={img1} alt="Image" />
+          <img className='w-auto' src={img2} alt="Image" />
+          <img className='w-auto' src={img3} alt="Image" />
+          <img className='w-auto' src={img4} alt="Image" />
+          <img className='w-auto' src={img5} alt="Image" />
+          <img className='w-auto' src={img6} alt="Image" />
         </div>
 
       </Container>
