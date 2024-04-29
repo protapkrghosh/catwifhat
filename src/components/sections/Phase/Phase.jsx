@@ -42,12 +42,48 @@ const Phase = () => {
 
           {/* second cart */}
           <div className=''>
-            <img className='lg:w-auto xl:mt-[-60px] xl:ml-[135px]' src={imageCard2} alt="image" />
+            <img className='lg:w-auto xl:mt-[-35px] xl:ml-[135px]' src={imageCard2} alt="image" />
+
+            {/* title section  */}
+            <div className='xl:mt-[-170px] xl:ml-[174px]'>
+              <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage2</p>
+              <div className='flex items-center gap-[10px] lg:mb-[15px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+              </div>
+              <div className='flex items-center gap-[10px] lg:mb-[15px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+              </div>
+              <div className='flex items-center gap-[10px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+              </div>
+            </div>
+
           </div>
 
           {/* third cart */}
           <div className=''>
-            <img className='lg:w-auto xl:mt-[-75px] xl:ml-[700px]' src={imageCard3} alt="image" />
+            <img className='lg:w-auto xl:mt-[-45px] xl:ml-[700px]' src={imageCard3} alt="image" />
+
+            {/* title section  */}
+            <div className='xl:mt-[-172px] xl:ml-[774px]'>
+              <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage2</p>
+              <div className='flex items-center gap-[10px] lg:mb-[15px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+              </div>
+              <div className='flex items-center gap-[10px] lg:mb-[15px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+              </div>
+              <div className='flex items-center gap-[10px]'>
+                <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
+                <p className='text-[#3F3F3F] text-[16px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+              </div>
+            </div>
+
           </div>
 
         </div>
