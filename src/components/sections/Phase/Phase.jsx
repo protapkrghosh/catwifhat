@@ -18,10 +18,10 @@ const Phase = () => {
 
           {/*-------------------- first cart -----------------------*/}
           <div className=''>
-            <img className='lg:w-auto 2xl:mt-[-875px] xl:mt-[-875px] 2xl:ml-[700px] xl:ml-[622px]' src={imageCard1} alt="image" />
+            <img className='lg:w-auto 2xl:mt-[-875px] xl:mt-[-875px] lg:mt-[-875px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard1} alt="image" />
 
             {/* title section  */}
-            <div className='2xl:mt-[-205px] xl:mt-[-205px] 2xl:ml-[774px] xl:ml-[697px]'>
+            <div className='2xl:mt-[-205px] xl:mt-[-205px] lg:mt-[-205px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px]'>
               <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage1</p>
               <div className='flex items-center gap-[10px] lg:mb-[15px]'>
                 <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
@@ -45,10 +45,10 @@ const Phase = () => {
 
           {/* --------------------second cart------------------- */}
           <div className=''>
-            <img className='lg:w-auto 2xl:mt-[-35px] xl:mt-[-35px] 2xl:ml-[135px] xl:ml-[65px]' src={imageCard2} alt="image" />
+            <img className='lg:w-auto 2xl:mt-[-35px] xl:mt-[-35px] lg:mt-[-35px] 2xl:ml-[135px] xl:ml-[65px] lg:ml-[-50px]' src={imageCard2} alt="image" />
 
             {/* title section  */}
-            <div className='2xl:mt-[-170px] xl:mt-[-170px] 2xl:ml-[174px] xl:ml-[105px]'>
+            <div className='2xl:mt-[-170px] xl:mt-[-170px] lg:mt-[-170px] 2xl:ml-[174px] xl:ml-[105px] lg:ml-[-25px]'>
               <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage2</p>
               <div className='flex items-center gap-[10px] lg:mb-[15px]'>
                 <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
@@ -68,10 +68,10 @@ const Phase = () => {
 
           {/* ------------------------third cart---------------------- */}
           <div className=''>
-            <img className='lg:w-auto 2xl:mt-[-45px] xl:mt-[-45px] 2xl:ml-[700px] xl:ml-[622px]' src={imageCard3} alt="image" />
+            <img className='lg:w-auto 2xl:mt-[-45px] xl:mt-[-45px] lg:mt-[-45px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard3} alt="image" />
 
             {/* title section  */}
-            <div className='2xl:mt-[-172px] xl:mt-[-172px] 2xl:ml-[774px] xl:ml-[697px]'>
+            <div className='2xl:mt-[-172px] xl:mt-[-172px] lg:mt-[-172px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px]'>
               <p className='text-[#DF355F] text-[18px] leading-[27px] tracking-[0.72px] lg:mb-[10px]'>stage3</p>
               <div className='flex items-center gap-[10px] lg:mb-[15px]'>
                 <div className='w-[13px] h-[13px] bg-[#DF355F] rounded-full'></div>
