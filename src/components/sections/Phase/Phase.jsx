@@ -16,7 +16,7 @@ const Phase = () => {
           </div>
 
           {/* phase top shadow image  */}
-          <img className='2xl:mt-[-250px] 2xl:ml-[-300px] absolute 2xl:w-auto' src={phaseTopShadowImage} alt="image" />
+          <img className='hidden lg:block 2xl:mt-[-250px] xl:mt-[-190px] lg:mt-[-160px] 2xl:ml-[-300px] xl:ml-[-70px] lg:ml-[-50px] absolute 2xl:w-auto lg:w-[35%]' src={phaseTopShadowImage} alt="image" />
 
           <div className='lg:mt-[290px] md:mt-[60px]'>
             <img className='lg:w-auto mx-auto hidden lg:block' src={phaseImage} alt="image" />
