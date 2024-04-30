@@ -66,7 +66,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className='relative lg:mt-[100px] bg-[#FA7C88]'>
+    <div className='relative lg:mt-[100px] 2xl:mt-[100px] bg-[#FA7C88]'>
       <div className='md:-mb-[305px] lg:-mb-[285px] xl:-mb-[400px]'>
         <Container>
           <div className='pt-[70px] lg:pt-[100px] flex justify-center items-center lg:gap-[19px]'>
@@ -150,8 +150,8 @@ const Footer = () => {
 
       <div className='hidden md:block'>
         <div className='flex justify-between md:mt-48 lg:mt-24 xl:mt-0 -mb-[108px]'>
-          <img src={catImgLeft} alt="Image" className='w-[180px] lg:w-[240px] xl:w-auto'/>
-          <img src={catImgRight} alt="Image" className='w-[180px] lg:w-[240px] xl:w-auto'/>
+          <img src={catImgLeft} alt="Image" className='w-[180px] lg:w-[240px] xl:w-auto' />
+          <img src={catImgRight} alt="Image" className='w-[180px] lg:w-[240px] xl:w-auto' />
         </div>
       </div>
 

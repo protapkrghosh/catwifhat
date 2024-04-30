@@ -24,7 +24,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[120px] xl:mt-[150px]'>
+    <div className='mt-[45px] md:mt-[100px] lg:mt-[122px] xl:mt-[150px]' id='tokenomics'>
       <div className='md:-mb-[225px] lg:-mb-[350px] xl:-mb-[470px] 2xl:-mb-[610px]'>
         <div className='relative'>
           <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] leading-[108px] tracking-[2.7px] -mb-[108px] textStrokeSm md:textStroke'>Tokenomics</p>
@@ -34,8 +34,10 @@ const Tokenomics = () => {
 
         <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-8 md:pt-16 pb-12 md:pb-20'>
           <div>
-            <p className='text-[24px] md:text-[28px] text-center textStrokeSm -mb-[36px] md:-mb-[42px]'>Total Supply: 1.000.000.000</p>
-            <p className='text-[24px] md:text-[28px] text-center'>Total Supply: 1.000.000.000</p>
+            <p className='text-[24px] md:text-[28px] text-center textStrokeSm -mb-[36px] md:-mb-[42px]' data-aos="fade-up"
+              data-aos-duration="2000">Total Supply: 1.000.000.000</p>
+            <p className='text-[24px] md:text-[28px] text-center' data-aos="fade-up"
+              data-aos-duration="2000">Total Supply: 1.000.000.000</p>
           </div>
 
           {/* Progress bar */}
