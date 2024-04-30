@@ -6,7 +6,7 @@ import img3 from '@/assets/whyChooseCatwifhat/Group 1171275187.png';
 
 const WhyChooseCatwifhat = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[150px]'>
+    <div className='mt-[45px] md:mt-[100px] lg:mt-[110px] xl:mt-[150px]' id='whitepaper'>
       <Container>
 
         <div>
@@ -16,9 +16,12 @@ const WhyChooseCatwifhat = () => {
         </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[40px]'>
-          <img className='w-auto' src={img1} alt="" />
-          <img className='w-auto' src={img2} alt="" />
-          <img className='w-auto' src={img3} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1300" src={img1} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1600" src={img2} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1900" src={img3} alt="" />
         </div>
 
       </Container>
