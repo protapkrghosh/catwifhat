@@ -7,7 +7,7 @@ import imageCard3 from '@/assets/phase/Group 1171275201.png';
 
 const Phase = () => {
   return (
-    <div className='md:mt-[100px] lg:mt-[128px] xl:mt-[140px]' id='roadmap'>
+    <div className='mt-[45px] md:mt-[100px] lg:mt-[128px] xl:mt-[140px]' id='roadmap'>
       <Container>
         <div className='relative'>
           <div>
