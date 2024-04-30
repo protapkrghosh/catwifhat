@@ -6,7 +6,7 @@ import img3 from '@/assets/whyChooseCatwifhat/Group 1171275187.png';
 
 const WhyChooseCatwifhat = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[150px] 2xl:mt-[150px]' id='whitepaper'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[150px] xl:mt-[150px]' id='whitepaper'>
       <Container>
 
         <div>

@@ -7,7 +7,7 @@ import img4 from '@/assets/tryAnotherCat/Group 1171275215.png';
 
 const TryAnotherCat = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[130px] 2xl:mt-[150px] mb-20 lg:mb-0'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[130px] xl:mt-[130px] 2xl:mt-[150px] mb-20 lg:mb-0'>
       <Container>
 
         <div>
