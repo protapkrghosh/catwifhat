@@ -28,23 +28,36 @@ const Phase = () => {
               {/* title section  */}
               <div className='2xl:mt-[-205px] xl:mt-[-205px] lg:mt-[-205px] md:mt-[-202px] mt-[-170px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px] ml-[65px]'>
 
+                <p className='textStrokeNav text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[-27px] mb-[-27px]'>stage1</p>
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage1</p>
 
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launching CatWifHat Website & Community</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launching CatWifHat Website & Community</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-339px] ml-[-263px]'>Launching CatWifHat Website & Community</p>
+
                 </div>
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Presale On Pinksale</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Presale On Pinksale</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-169px] ml-[-132px]'>Presale On Pinksale</p>
+
                 </div>
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launch On Raydium...</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launch On Raydium...</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-169px] ml-[-132px]'>Launch On Raydium...</p>
+
                 </div>
                 <div className='flex items-center gap-[10px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launch Marketing</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Launch Marketing</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-150px] ml-[-118px]'>Launch Marketing</p>
+
                 </div>
               </div>
 
@@ -57,19 +70,29 @@ const Phase = () => {
               {/* title section  */}
               <div className='2xl:mt-[-170px] xl:mt-[-170px] lg:mt-[-165px] md:mt-[-167px] mt-[-140px] 2xl:ml-[174px] xl:ml-[105px] lg:ml-[1px] md:ml-[180px] ml-[65px]'>
 
+                <p className='textStrokeNav text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[-27px] mb-[-27px]'>stage2</p>
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage2</p>
 
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-145px] ml-[-114px]'>Listing CMC & CGK</p>
+
                 </div>
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-232px] ml-[-181px]'>#CatWifHat Trending Global</p>
+
                 </div>
                 <div className='flex items-center gap-[10px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-120px] ml-[-95px]'>Listing of CE...</p>
+
                 </div>
               </div>
 
@@ -82,19 +105,29 @@ const Phase = () => {
               {/* title section  */}
               <div className='2xl:mt-[-172px] xl:mt-[-172px] lg:mt-[-165px] md:mt-[-167px] mt-[-140px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px] ml-[65px]'>
 
+                <p className='textStrokeNav text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[-27px] mb-[-27px]'>stage3</p>
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage3</p>
 
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing CMC & CGK</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-144px] ml-[-114px]'>Listing CMC & CGK</p>
+
                 </div>
                 <div className='flex items-center gap-[10px] md:mb-[15px] mb-[3px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>#CatWifHat Trending Global</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-232px] ml-[-181px]'>#CatWifHat Trending Global</p>
+
                 </div>
                 <div className='flex items-center gap-[10px]'>
                   <div className='md:w-[13px] w-[10px] md:h-[13px] h-[10px] bg-[#DF355F] rounded-full'></div>
-                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+
+                  <p className='textStrokeNav text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px]'>Listing of CE...</p>
+                  <p className='text-[#3F3F3F] md:text-[16px] text-[12px] leading-[24px] tracking-[0.64px] md:ml-[-120px] ml-[-95px]'>Listing of CE...</p>
+
                 </div>
               </div>
 
