@@ -104,19 +104,19 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={0} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer ${activeLink === "tokenomics" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
+                <Link to="tokenomics" smooth={true} offset={-120} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer ${activeLink === "tokenomics" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
               <li>
-                <Link to="roadmap" smooth={true} offset={10} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "roadmap" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
+                <Link to="roadmap" smooth={true} offset={-120} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "roadmap" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
               </li>
 
               <li>
-                <Link to="partners" smooth={true} offset={10} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "partners" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("partners")}>Partners</Link>
+                <Link to="partners" smooth={true} offset={-20} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "partners" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("partners")}>Partners</Link>
               </li>
 
               <li>
-                <Link to="whitepaper" smooth={true} offset={10} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "whitepaper" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("whitepaper")}>Whitepaper</Link>
+                <Link to="whitepaper" smooth={true} offset={-200} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "whitepaper" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("whitepaper")}>Whitepaper</Link>
               </li>
 
               <div className="block md:hidden">

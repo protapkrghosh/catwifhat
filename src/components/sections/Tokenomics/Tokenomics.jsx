@@ -24,7 +24,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[120px] xl:mt-[150px]'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[120px] xl:mt-[150px]' id='tokenomics'>
       <div className='md:-mb-[225px] lg:-mb-[350px] xl:-mb-[470px] 2xl:-mb-[610px]'>
         <div className='relative'>
           <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] leading-[108px] tracking-[2.7px] -mb-[108px] textStrokeSm md:textStroke'>Tokenomics</p>
