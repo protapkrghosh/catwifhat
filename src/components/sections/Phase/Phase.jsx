@@ -22,9 +22,8 @@ const Phase = () => {
             <img className='lg:w-auto mx-auto hidden lg:block' src={phaseImage} alt="image" />
 
             {/*-------------------- first cart -----------------------*/}
-            <div className='' data-aos="fade-left"
-              data-aos-offset="500"
-              data-aos-easing="ease-in-sine">
+            <div className='' data-aos="fade-up"
+              data-aos-duration="1500">
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-875px] xl:mt-[-875px] lg:mt-[-860px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard1} alt="image" />
 
               {/* title section  */}
@@ -66,9 +65,8 @@ const Phase = () => {
             </div>
 
             {/* --------------------second cart------------------- */}
-            <div className='lg:mt-0 md:mt-[90px] mt-[60px]' data-aos="fade-right"
-              data-aos-offset="500"
-              data-aos-easing="ease-in-sine">
+            <div className='lg:mt-0 md:mt-[90px] mt-[60px]' data-aos="fade-up"
+              data-aos-duration="2000">
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-35px] xl:mt-[-35px] lg:mt-[-5px] 2xl:ml-[135px] xl:ml-[65px] lg:ml-[-25px]' src={imageCard2} alt="image" />
 
               {/* title section  */}
@@ -103,9 +101,8 @@ const Phase = () => {
             </div>
 
             {/* ------------------------third cart---------------------- */}
-            <div className='lg:mt-0 md:mt-[110px] mt-[90px]' data-aos="fade-right"
-              data-aos-offset="500"
-              data-aos-easing="ease-in-sine">
+            <div className='lg:mt-0 md:mt-[110px] mt-[90px]' data-aos="fade-up"
+              data-aos-duration="2500">
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-45px] xl:mt-[-45px] lg:mt-[-22px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard3} alt="image" />
 
               {/* title section  */}
