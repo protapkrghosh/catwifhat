@@ -23,12 +23,24 @@ const OurPartner = () => {
         </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[60px] lg:gap-[50px] gap-[40px]'>
-          <img className='w-auto' src={img1} alt="Image" />
-          <img className='w-auto' src={img2} alt="Image" />
-          <img className='w-auto' src={img3} alt="Image" />
-          <img className='w-auto' src={img4} alt="Image" />
-          <img className='w-auto' src={img5} alt="Image" />
-          <img className='w-auto' src={img6} alt="Image" />
+          <img className='w-auto' data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2500" src={img1} alt="Image" />
+          <img className='w-auto' src={img2} data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2600" alt="Image" />
+          <img className='w-auto' src={img3} data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2700" alt="Image" />
+          <img className='w-auto' src={img4} data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2800" alt="Image" />
+          <img className='w-auto' src={img5} data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2900" alt="Image" />
+          <img className='w-auto' src={img6} data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="3000" alt="Image" />
         </div>
 
       </Container>

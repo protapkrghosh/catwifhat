@@ -34,8 +34,10 @@ const Tokenomics = () => {
 
         <div className='text-[#DF355F] bg-gradient-to-r from-[#C5959A] to-[#DEACB2] pt-8 md:pt-16 pb-12 md:pb-20'>
           <div>
-            <p className='text-[24px] md:text-[28px] text-center textStrokeSm -mb-[36px] md:-mb-[42px]'>Total Supply: 1.000.000.000</p>
-            <p className='text-[24px] md:text-[28px] text-center'>Total Supply: 1.000.000.000</p>
+            <p className='text-[24px] md:text-[28px] text-center textStrokeSm -mb-[36px] md:-mb-[42px]' data-aos="fade-up"
+              data-aos-duration="2000">Total Supply: 1.000.000.000</p>
+            <p className='text-[24px] md:text-[28px] text-center' data-aos="fade-up"
+              data-aos-duration="2000">Total Supply: 1.000.000.000</p>
           </div>
 
           {/* Progress bar */}

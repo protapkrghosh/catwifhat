@@ -16,9 +16,12 @@ const WhyChooseCatwifhat = () => {
         </div>
 
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[40px]'>
-          <img className='w-auto' src={img1} alt="" />
-          <img className='w-auto' src={img2} alt="" />
-          <img className='w-auto' src={img3} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1300" src={img1} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1600" src={img2} alt="" />
+          <img className='w-auto' data-aos="fade-up"
+            data-aos-duration="1900" src={img3} alt="" />
         </div>
 
       </Container>

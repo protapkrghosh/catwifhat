@@ -17,10 +17,14 @@ const TryAnotherCat = () => {
         </div>
 
         <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[30px]'>
-          <img className='w-auto mx-auto' src={img1} alt="Image" />
-          <img className='w-auto mx-auto' src={img2} alt="Image" />
-          <img className='w-auto mx-auto' src={img3} alt="Image" />
-          <img className='w-auto mx-auto' src={img4} alt="Image" />
+          <img className='w-auto mx-auto' data-aos="zoom-in"
+            data-aos-duration="3000" src={img1} alt="Image" />
+          <img className='w-auto mx-auto' data-aos="zoom-in"
+            data-aos-duration="3000" src={img2} alt="Image" />
+          <img className='w-auto mx-auto' data-aos="zoom-in"
+            data-aos-duration="3000" src={img3} alt="Image" />
+          <img className='w-auto mx-auto' data-aos="zoom-in"
+            data-aos-duration="3000" src={img4} alt="Image" />
         </div>
 
       </Container>
