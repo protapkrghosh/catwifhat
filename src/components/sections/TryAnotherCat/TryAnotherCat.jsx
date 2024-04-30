@@ -7,9 +7,9 @@ import img4 from '@/assets/tryAnotherCat/Group 1171275215.png';
 
 const TryAnotherCat = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[130px] mb-20 lg:mb-0'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[130px] 2xl:mt-[150px] mb-20 lg:mb-0'>
       <Container>
-        
+
         <div>
           <p className='text-[#DF355F] text-center text-[38px] md:text-[50px] lg:text-[49px] xl:text-[67px] 2xl:text-[75px] lg:leading-[96px] tracking-[2.4px] textStrokeSm md:textStroke -mb-[114px] md:-mb-[150px] lg:-mb-[96px] 2xl:-mb-[96px]'>TRY ANOTHER CAT WITH ANOTHER HAT</p>
 

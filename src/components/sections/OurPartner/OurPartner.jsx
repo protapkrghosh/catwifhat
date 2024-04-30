@@ -9,16 +9,16 @@ import img7 from '@/assets/ourPartner/image21.png';
 
 const OurPartner = () => {
   return (
-    <div className='mt-[60px] md:mt-[100px] lg:mt-[170px]' id='partners'>
+    <div className='mt-[60px] md:mt-[100px] lg:mt-[-30px] 2xl:mt-[-30px]' id='partners'>
 
       <div className='flex justify-end lg:-mb-[260px] xl:-mb-[300px] 2xl:-mb-[355px] 2xl:mr-24'>
-        <img src={img7} alt="Image" className='w-[280px] xl:w-[350px] 2xl:w-[450px] hidden lg:block'/>
+        <img src={img7} alt="Image" className='w-[280px] xl:w-[350px] 2xl:w-[450px] hidden lg:block' />
       </div>
 
       <Container>
         <div>
           <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] textStrokeSm md:textStroke -mb-[67px] md:-mb-[97px] lg:-mb-[108px]'>our partner</p>
-          
+
           <p className='text-[#DF355F] text-center text-[45px] md:text-[65px] xl:text-[77px] 2xl:text-[90px] lg:leading-[108px] lg:tracking-[2.7px] mb-[30px] xl:mb-[60px]'>our partner</p>
         </div>
 
