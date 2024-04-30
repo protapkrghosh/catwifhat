@@ -18,7 +18,7 @@ const Phase = () => {
           {/* phase top shadow image  */}
           <img className='hidden lg:block 2xl:mt-[-250px] xl:mt-[-190px] lg:mt-[-160px] 2xl:ml-[-300px] xl:ml-[-70px] lg:ml-[-50px] absolute 2xl:w-auto lg:w-[35%]' src={phaseTopShadowImage} alt="image" />
 
-          <div className='lg:mt-[290px] md:mt-[60px]'>
+          <div className='lg:mt-[290px] md:mt-[60px] mt-[35px]'>
             <img className='lg:w-auto mx-auto hidden lg:block' src={phaseImage} alt="image" />
 
             {/*-------------------- first cart -----------------------*/}
@@ -26,7 +26,7 @@ const Phase = () => {
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-875px] xl:mt-[-875px] lg:mt-[-860px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard1} alt="image" />
 
               {/* title section  */}
-              <div className='2xl:mt-[-205px] xl:mt-[-205px] lg:mt-[-205px] md:mt-[-202px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px]'>
+              <div className='2xl:mt-[-205px] xl:mt-[-205px] lg:mt-[-205px] md:mt-[-202px] mt-[-170px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px] ml-[65px]'>
 
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage1</p>
 
@@ -51,11 +51,11 @@ const Phase = () => {
             </div>
 
             {/* --------------------second cart------------------- */}
-            <div className='lg:mt-0 md:mt-[90px]'>
+            <div className='lg:mt-0 md:mt-[90px] mt-[60px]'>
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-35px] xl:mt-[-35px] lg:mt-[-5px] 2xl:ml-[135px] xl:ml-[65px] lg:ml-[-25px]' src={imageCard2} alt="image" />
 
               {/* title section  */}
-              <div className='2xl:mt-[-170px] xl:mt-[-170px] lg:mt-[-165px] md:mt-[-167px] 2xl:ml-[174px] xl:ml-[105px] lg:ml-[1px] md:ml-[180px]'>
+              <div className='2xl:mt-[-170px] xl:mt-[-170px] lg:mt-[-165px] md:mt-[-167px] mt-[-140px] 2xl:ml-[174px] xl:ml-[105px] lg:ml-[1px] md:ml-[180px] ml-[65px]'>
 
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage2</p>
 
@@ -76,11 +76,11 @@ const Phase = () => {
             </div>
 
             {/* ------------------------third cart---------------------- */}
-            <div className='lg:mt-0 md:mt-[110px]'>
+            <div className='lg:mt-0 md:mt-[110px] mt-[90px]'>
               <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[48.5%] md:w-[65%] w-auto 2xl:mt-[-45px] xl:mt-[-45px] lg:mt-[-22px] 2xl:ml-[700px] xl:ml-[622px] lg:ml-[480px]' src={imageCard3} alt="image" />
 
               {/* title section  */}
-              <div className='2xl:mt-[-172px] xl:mt-[-172px] lg:mt-[-165px] md:mt-[-167px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px]'>
+              <div className='2xl:mt-[-172px] xl:mt-[-172px] lg:mt-[-165px] md:mt-[-167px] mt-[-140px] 2xl:ml-[774px] xl:ml-[697px] lg:ml-[540px] md:ml-[180px] ml-[65px]'>
 
                 <p className='text-[#DF355F] md:text-[18px] text-[16px] leading-[27px] tracking-[0.72px] md:mb-[10px] mb-[6px]'>stage3</p>
 
