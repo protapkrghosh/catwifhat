@@ -112,7 +112,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="partners" smooth={true} offset={-20} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "partners" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("partners")}>Partners</Link>
+                <Link to="partners" smooth={true} offset={20} duration={600} className={`2xl:text-[18px] font-inter duration-300 uppercase cursor-pointer  ${activeLink === "partners" ? 'text-[#DF355F]' : 'text-[#3E3E3E] hover:text-[#DF355F] duration-200'}`} onClick={() => setActiveLink("partners")}>Partners</Link>
               </li>
 
               <li>
